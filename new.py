@@ -19,4 +19,4 @@
 import random
 # print(random.randint(int(input("provide number: ")), 2))
 
-print(random.randint(2, int(input("provide number: ")) if int(input("provide number: ")) > 2 else 2))
+print(random.randint(2, int(input("provide number: ")) if int(input("provide number: ")) >= 2 else 2))
