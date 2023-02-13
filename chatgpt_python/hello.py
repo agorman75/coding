@@ -51,11 +51,3 @@ def num(number1):
         print(f"The number is low {number1}")
 
 num(number1)
-
-# if int(insert_string) > 10:
-#     a = str(insert_string)
-#     print(f"The sum of vowels is large. Output = {a}")
-# else:
-#     print("The sum is lower")
-
-print("I went to {park} and {store}".format(park="water park", store="seven eleven"))
