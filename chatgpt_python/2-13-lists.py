@@ -48,13 +48,97 @@
 # # b = int(input())
 # # print(a + b)
 
-def find_largest_number(a, b, c):
-    if a > b and a > c:
-        return a
-    elif b > a and b > c:
-        return b
-    else:
-        return c
+# def find_largest_number(a, b, c):
+#     if a > b and a > c:
+#         return a
+#     elif b > a and b > c:
+#         return b
+#     else:
+#         return c
 
-largest = find_largest_number(int(input("Provide first number: ")), int(input("Provide second number: ")), int(input("Provide third number: ")))
-print(f"The largest number of the three is: {largest}")
+# largest = find_largest_number(int(input("Provide first number: ")), int(input("Provide second number: ")), int(input("Provide third number: ")))
+# print(f"The largest number of the three is: {largest}")
+
+
+# def multi(x):
+#     if x <= 10:
+#         x = int(input("Provide a number between 1 - 9: "))
+#     if x > 9:
+#         for v in range(1,10):
+#             print(v * x)
+
+# x = multi(int(input("Provide a number between 1 - 9: ")))
+
+# def multi(x):
+#     while x not in range(1,10) or x == '':
+#         x = int(input("Invalid input. Provide a number between 1 - 9: "))
+#     if x in range(1,10):
+#         for v in range(1,10):
+#             print(v * x)
+
+# multi(input("Provide a number between 1 - 9: "))
+
+# import random
+
+# def guess(x):
+#     num = random.randint(1,100)
+#     while x != num:
+#         x = int(input(f"Try again: "))
+#         if x > num:
+#             print("Too high!")
+#         if x < num:
+#             print("Too low!")
+#     if x == num:
+# #         print("You got it!")
+
+# # guess(input("Guess the number: "))
+
+# def rev(a):
+#     print(''.join(reversed(a)))
+# rev(input("Enter in a string: "))
+
+# def rev(a):
+#     print(a[::-1])
+# rev(input("Enter in a string: "))
+
+# def string1(words):
+#     count = 0
+#     vow = 'aeiouAEIUO'
+#     while type(words) != str:
+#         words = input("Invalid input. Please provide a string: ")
+#     for each in words:
+#         if each in vow:
+#             count += 1
+#     print(count)
+
+# string1(input("Provide string: "))
+
+# def string1(words):
+#     count = 0
+#     vowels = 'aeiouAEIUO'
+#     words = input("Enter a string: ")
+#     while not isinstance(words, str):
+#         words = input("Invalid input. Please provide a string: ")
+#     for each in words:
+#         if each in vowels:
+#             count += 1
+#     print(count)
+
+# string1(input("Provide string: "))
+
+
+# def count_vowels(words):
+#     count = 0
+#     vowels = 'aeiouAEIOU'
+#     for char in words:
+#         if char in vowels:
+#             count += 1
+#     print(count)
+
+# count_vowels(input("Provide a string: "))
+
+def first(word):
+    new = word.split(' ')
+    return print(new[0])
+
+first(word = input("Provide a string: "))
