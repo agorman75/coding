@@ -1,12 +1,15 @@
+# def sum_list(list_1):
+#     a = 0
+#     for each in list_1.split(','):
+#         each = int(each)
+#         a += int(each)
+#     print(a)
 
-# def ask_list(even):
-#     even_list = [even]
-#     for each in even_list:
-#         new_even_list = []
-#         if int(each) % 2 == 0:
-#             new_even_list.append(each)
-#     print(new_even_list)
+# sum_list(input("Provide a list of numbers: "))
 
-# ask_list(input("Provide a list: "))
+def word(words):
+    new = []
+    for [each] in words.split(','):
+        print(each)
 
-print(type(3))
+word(input("Provide a list of words: "))

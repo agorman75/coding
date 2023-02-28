@@ -137,8 +137,26 @@
 
 # count_vowels(input("Provide a string: "))
 
-def first(word):
-    new = word.split(' ')
-    return print(new[0])
+# def first(word):
+#     new = word.split(' ')
+#     return print(new[0])
 
-first(word = input("Provide a string: "))
+# first(word = input("Provide a string: "))
+
+# def count_vowels(words):
+#     count = 0
+#     vowels = 'aeiouAEIOU'
+#     for char in words:
+#         if char == ' ':
+#             continue
+#         if char not in vowels:
+#             count += 1
+#     print(count)
+
+# count_vowels(input("Provide a string: "))
+
+guest = ['Kate', 'Adam', 'Kerry', 'Joe', 'Anne']
+if input("What is your name: ") in guest:
+    print(f"Welcome! There are {len(guest) - 1} other guests.")
+else:
+    print("Not welcome!")
